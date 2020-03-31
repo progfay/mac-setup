@@ -47,7 +47,7 @@ n stable
 xargs npm install --global < npm-global.packages
 
 heading 'System Prefernces'
-bash .macos
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/progfay/mac-setup/master/.macos)"
 
 heading 'Restart'
 confirm 'Restart PC to take effect of init'
