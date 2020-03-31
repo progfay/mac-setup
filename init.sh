@@ -44,7 +44,7 @@ brew bundle --global install
 
 heading 'node'
 n stable
-xargs npm install --global < npm-global.packages
+xargs npm install --global < ~/.npm/npm-global.packages
 
 heading 'System Prefernces'
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/progfay/mac-setup/master/.macos)"
